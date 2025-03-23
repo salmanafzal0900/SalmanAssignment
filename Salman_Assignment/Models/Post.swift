@@ -19,37 +19,37 @@ struct Post: Identifiable {
     // For demo purposes, we'll create some sample posts
     static let samplePosts: [Post] = [
         Post(
-            username: "nature_lover",
+            username: "Salman Afzal",
             userAvatar: "person.circle.fill",
             mediaItems: [
                 MediaItem(type: .image, url: "https://picsum.photos/200/300", thumbnailUrl: nil, localAssetName: "sample_image_1")
             ],
-            caption: "Beautiful sunset 🌅",
-            likes: 1234,
+            caption: "Beautiful sunset of Dubai...",
+            likes: 786,
             timestamp: Date()
         ),
         Post(
-            username: "nature_lover",
+            username: "Ali Abdullah",
             userAvatar: "person.circle.fill",
             mediaItems: [
                 MediaItem(type: .image, url: "https://picsum.photos/200/300", thumbnailUrl: nil, localAssetName: "sample_image_1")
             ],
-            caption: "Beautiful sunset 🌅",
+            caption: "Sun, sand, and good vibes with @Zubair 🌊☀️",
             likes: 1234,
             timestamp: Date()
         ),
         Post(
-            username: "nature_lover",
+            username: "Khalid",
             userAvatar: "person.circle.fill",
             mediaItems: [
                 MediaItem(type: .image, url: "https://picsum.photos/200/300", thumbnailUrl: nil, localAssetName: "sample_image_1")
             ],
-            caption: "Beautiful sunset 🌅",
+            caption: "Living the high life with a view of the Burj Khalifa 🏙️✨",
             likes: 1234,
             timestamp: Date()
         ),
         Post(
-            username: "travel_diary",
+            username: "Danial",
             userAvatar: "person.circle.fill",
             mediaItems: [
                 MediaItem(type: .video, url: "sample_video_1", thumbnailUrl: "sample_video_1_thumb", localAssetName: "sample_video_1")
@@ -59,7 +59,7 @@ struct Post: Identifiable {
             timestamp: Date().addingTimeInterval(-3600)
         ),
         Post(
-            username: "foodie_adventures",
+            username: "Ali",
             userAvatar: "person.circle.fill",
             mediaItems: [
                 MediaItem(type: .image, url: "https://picsum.photos/200/300", thumbnailUrl: nil, localAssetName: "sample_image_2"),
@@ -70,12 +70,12 @@ struct Post: Identifiable {
             timestamp: Date().addingTimeInterval(-7200)
         ),
         Post(
-            username: "nature_lover",
+            username: "Ahmed",
             userAvatar: "person.circle.fill",
             mediaItems: [
                 MediaItem(type: .image, url: "https://picsum.photos/200/300", thumbnailUrl: nil, localAssetName: "sample_image_1")
             ],
-            caption: "Beautiful sunset 🌅",
+            caption: "Beautiful sunset",
             likes: 1234,
             timestamp: Date()
         )

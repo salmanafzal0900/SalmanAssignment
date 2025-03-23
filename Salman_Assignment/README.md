@@ -11,7 +11,6 @@ A simplified Instagram-like feed application built with SwiftUI and MVVM archite
 - MVVM architecture
 
 ## Requirements
-
 - iOS 15.0+
 - Xcode 13.0+
 - Swift 5.5+
@@ -20,9 +19,3 @@ A simplified Instagram-like feed application built with SwiftUI and MVVM archite
 The app follows the MVVM (Model-View-ViewModel) architecture pattern.
 
 
-## Caching Strategy
-The app implements a simple in-memory caching mechanism for media items to improve performance and reduce resource consumption.
-
-
-## License
-This project is available under the MIT license. See the LICENSE file for more info. 

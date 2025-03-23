@@ -17,6 +17,7 @@ class FeedViewModel: ObservableObject {
     private var mediaCache: [String: Any] = [:]
     
     init() {
+        print("Loading row lazily")
         loadPosts()
     }
     
